@@ -57,6 +57,14 @@ const toggleTheme = () => {
           </li>
           <li>
             <Link
+              to="/experience"
+              className={location.pathname === "/experience" ? "active" : ""}
+            >
+              Experience
+            </Link>
+          </li>
+          <li>
+            <Link
               to="/contact"
               className={location.pathname === "/contact" ? "active" : ""}
             >

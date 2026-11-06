@@ -141,6 +141,16 @@
 }
 
 /* Responsive */
+@media (min-width: 769px) and (max-width: 1100px) {
+  .nav {
+    padding: 14px 24px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .nav {
     padding: 14px 20px;
