@@ -6,7 +6,7 @@ import "./Experience.css";
 export const experiences = [
   {
     company: "Netways",
-    title: "Software Developer",
+    title: "Mid-Level Software Developer",
     duration: "March 2026 – Present",
     location: "Cairo, Egypt (Hybrid)",
     current: true,
@@ -21,7 +21,7 @@ export const experiences = [
   },
   {
     company: "Velents.AI",
-    title: "Frontend Developer",
+    title: "Mid-Level Frontend Developer",
     duration: "April 2025 – February 2026",
     location: "Riyadh, Saudi Arabia (Remote)",
     responsibilities: [
