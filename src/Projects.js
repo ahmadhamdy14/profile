@@ -2,56 +2,56 @@ import Header from "./components/Header";
 import "./Projects.css";
 import { useEffect } from "react";
 
-import project1 from "./projects/project1.png";
 import project2 from "./projects/project2.png";
 import project3 from "./projects/project3.png";
 import project4 from "./projects/project4.png";
 import project5 from "./projects/project5.png";
 import project6 from "./projects/project6.png";
 
+
 const projectsData = [
+  
   {
-    title: "E-Commerce App (React & Firebase)",
-    description: "A modern e-commerce app with authentication, protected routes, and role-based access (admin & user), featuring product management, shopping cart, and responsive UI.",
-    image: project6,
-    live: "https://attar-hub.vercel.app/",
-    github: "https://github.com/ahmadhamdy14/Attar-Hub",
-  },
-  {
-    title: "CRUD App with javaScript",
-    description: "A simple and responsive CRUD app made with HTML, CSS, and JavaScript, featuring animated backgrounds and smooth interactions.",
-    image: project4,
-    live: "https://cruds-teal-ten.vercel.app/",
-    github: "https://github.com/ael3ttar14/CRUDS",
-  },
-  {
-    title: "React Auth App",
-    description: "Login & Register using React, JSON Server & LocalStorage.",
+    title: "SAFHA (AI Document Automation Platform)",
+    description: "An AI-powered document automation platform for extracting, validating, and structuring complex documents. Developed scalable frontend modules, integrated AI-driven APIs, supported multilingual content including Arabic, and optimized UI performance for enterprise workflows.",
     image: project2,
-    live: "#",
-    github: "https://github.com/ael3ttar14/project-",
+    live: " https://safha-ai.com/en/",
+    github: "#",
   },
+  
+  
+{
+  title: "Agent Hub (AI Agents Platform)",
+  description: "An enterprise AI platform for building and managing Arabic-first voice and messaging agents across WhatsApp, IVR, and web chat. Developed interactive frontend interfaces, integrated real-time APIs, implemented authentication flows, and optimized UI performance and state management.",
+  image: project3,
+  live: "https://agent.sa/",
+  github: "",
+},
+
   {
-    title: "Find-Me",
-    description: "A React app that matches faces in photos, connecting people across different ages. Uses image recognition to identify and link similar faces.",
-    image: project3,
-    live: "#",
-    github: "https://github.com/ael3ttar14/find-me",
+    title: "Tafhana Market (React & Firebase)",
+    description: "A live, production-deployed Arabic e-commerce PWA built with React.js, Vite, and Firebase, featuring product management, authentication, role-based access, shopping cart, order management, medical services, and responsive RTL design.",
+    image: project4,
+    live: "https://tafhana-market.vercel.app/",
+    github: "",
   },
-   {
-    title: "Portfolio Website",
-    description: "Personal portfolio built with React and responsive design.",
-    image: project1,
-    live: "https://my-portfolio-five-gamma-68.vercel.app/",
-    github: "https://github.com/ael3ttar14/my-portfolio",
-  },
-   {
-    title: "Light Gallery",
-    description: "Responsive Photo Gallery with Lightbox (DOM Manipulation).",
-    image: project5,
-    live: "https://light-gallery-sandy.vercel.app/",
-    github: "https://github.com/ael3ttar14/lightgallery",
-  }
+ 
+{
+  title: "Faltah.ai (AI Interview Platform)",
+  description: "An AI-powered interview simulation platform built with Vue.js, featuring interactive interviews, real-time AI responses, and dynamic question flows. Integrated OpenAI APIs, developed reusable UI components, supported multilingual content, and optimized performance and accessibility across devices.",
+  image: project5,
+  live: "https://faltah.ai/apply",
+  github: "",
+},
+{
+  title: "Hectar Plus (Real Estate Management Platform)",
+  description: "A real estate management platform built with Vue.js and Vuetify, designed to streamline property management, business operations, and internal workflows. Developed responsive frontend interfaces, built reusable UI components, and collaborated with product teams to deliver scalable, user-friendly solutions.",
+  image: project6,
+  live: "https://hectarplus.io/",
+  github: "",
+},
+
+
 ];
 
 export default function Projects() {
@@ -94,9 +94,9 @@ export default function Projects() {
                     Live Demo
                   </a>
                 )}
-                <a href={project.github} target="_blank" rel="noreferrer">
+                {/* <a href={project.github} target="_blank" rel="noreferrer">
                   GitHub
-                </a>
+                </a> */}
               </div>
             </div>
           ))}
